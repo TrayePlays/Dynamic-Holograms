@@ -4,3 +4,4 @@ This can let you create dynamic holograms for seeing text and what the text disp
 Download the pack and add yourself the tag "seeText"
 
 You will notice that other players without this tag can't see the text!
+**NOTE: Each individual text entity has a limit of 30 characters! (including spaces)**
