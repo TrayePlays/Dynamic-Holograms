@@ -1,0 +1,112 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.text.move": {
+			"loop": true,
+			"bones": {
+				"char_1": {
+					"position": ["-variable.letter_1_width", 0, 0]
+				},
+				"char_2": {
+					"position": ["-variable.letter_2_width", 0, 0]
+				},
+				"char_3": {
+					"position": ["-variable.letter_3_width", 0, 0]
+				},
+				"char_4": {
+					"position": ["-variable.letter_4_width", 0, 0]
+				},
+				"char_5": {
+					"position": ["-variable.letter_5_width", 0, 0]
+				},
+				"char_6": {
+					"position": ["-variable.letter_6_width", 0, 0]
+				},
+				"char_7": {
+					"position": ["-variable.letter_7_width", 0, 0]
+				},
+				"char_8": {
+					"position": ["-variable.letter_8_width", 0, 0]
+				},
+				"char_9": {
+					"position": ["-variable.letter_9_width", 0, 0]
+				},
+				"char_10": {
+					"position": ["-variable.letter_10_width", 0, 0]
+				},
+				"char_11": {
+					"position": ["-variable.letter_11_width", 0, 0]
+				},
+				"char_12": {
+					"position": ["-variable.letter_12_width", 0, 0]
+				},
+				"char_13": {
+					"position": ["-variable.letter_13_width", 0, 0]
+				},
+				"char_14": {
+					"position": ["-variable.letter_14_width", 0, 0]
+				},
+				"char_15": {
+					"position": ["-variable.letter_15_width", 0, 0]
+				},
+				"char_16": {
+					"position": ["-variable.letter_16_width", 0, 0]
+				},
+				"char_17": {
+					"position": ["-variable.letter_17_width", 0, 0]
+				},
+				"char_18": {
+					"position": ["-variable.letter_18_width", 0, 0]
+				},
+				"char_19": {
+					"position": ["-variable.letter_19_width", 0, 0]
+				},
+				"char_20": {
+					"position": ["-variable.letter_20_width", 0, 0]
+				},
+				"char_21": {
+					"position": ["-variable.letter_21_width", 0, 0]
+				},
+				"char_22": {
+					"position": ["-variable.letter_22_width", 0, 0]
+				},
+				"char_23": {
+					"position": ["-variable.letter_23_width", 0, 0]
+				},
+				"char_24": {
+					"position": ["-variable.letter_24_width", 0, 0]
+				},
+				"char_25": {
+					"position": ["-variable.letter_25_width", 0, 0]
+				},
+				"char_26": {
+					"position": ["-variable.letter_26_width", 0, 0]
+				},
+				"char_27": {
+					"position": ["-variable.letter_27_width", 0, 0]
+				},
+				"char_28": {
+					"position": ["-variable.letter_28_width", 0, 0]
+				},
+				"char_29": {
+					"position": ["-variable.letter_29_width", 0, 0]
+				},
+				"char_30": {
+					"position": ["-variable.letter_30_width", 0, 0]
+				},
+				"char_0": {
+					"position": ["v.text_offset", 0, 0]
+				}
+			}
+		},
+		"animation.text.billboard": {
+			"loop": true,
+			"animation_length": 0.1667,
+			"bones": {
+				"root": {
+					"rotation": ["query.rotation_to_camera(0)*-1", "query.rotation_to_camera(1)", 0]
+				}
+			}
+		}
+	}
+}

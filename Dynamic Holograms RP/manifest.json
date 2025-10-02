@@ -1,0 +1,17 @@
+{
+	"format_version": 2,
+	"header": {
+		"name": "Dynamic Holograms RP",
+		"description": "-by TrayePlays",
+		"min_engine_version": [1, 21, 0],
+		"uuid": "56d08c4c-8593-415d-937d-7ef8a68bd9e2",
+		"version": [1, 0, 0]
+	},
+	"modules": [
+		{
+			"type": "resources",
+			"uuid": "d564c149-7f7b-4797-bf52-c9e2b5f8e048",
+			"version": [1, 0, 0]
+		}
+	]
+}

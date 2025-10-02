@@ -1,0 +1,26 @@
+{
+	"format_version": 2,
+	"header": {
+		"name": "Dynamic Holograms BP",
+		"description": "-by TrayePlays",
+		"min_engine_version": [1, 21, 0],
+		"uuid": "4c9aaca9-2481-42a9-a8da-e4d66f0900be",
+		"version": [1, 0, 0]
+	},
+	"metadata": {"product_type": "addon"},
+	"modules": [
+		{
+			"type": "data",
+			"uuid": "842f380b-b39a-4679-a925-891657448950",
+			"version": [1, 0, 0]
+		},
+		{
+			"type": "script",
+			"language": "javascript",
+			"uuid": "e9a82d48-3169-4546-8589-393386cb1c02",
+			"entry": "scripts/main.js",
+			"version": [1, 0, 0]
+		}
+	],
+	"dependencies": [ {"module_name": "@minecraft/server", "version": "2.2.0"} ]
+}

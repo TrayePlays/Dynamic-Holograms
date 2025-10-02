@@ -1,0 +1,21 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.black_bg.scale": {
+			"loop": true,
+			"bones": {
+				"background": {
+					"scale": ["variable.black_box_width", 1, 1]
+				}
+			}
+		},
+		"animation.black_bg.billboard": {
+			"loop": true,
+			"bones": {
+				"root": {
+					"rotation": ["query.rotation_to_camera(0)", "query.rotation_to_camera(1)", 0]
+				}
+			}
+		}
+	}
+}

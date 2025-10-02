@@ -1,0 +1,209 @@
+{
+    "format_version": "1.21.60",
+    "minecraft:entity": {
+        "description": {
+            "identifier": "traye:text_entity",
+            "is_spawnable": false,
+            "is_experimental": false,
+            "is_summonable": true,
+            "properties": {
+                "traye:see_through_walls": {
+                    "client_sync": true,
+                    "default": false,
+                    "type": "bool"
+                },
+                "traye:visible": {
+                    "client_sync": true,
+                    "default": false,
+                    "type": "bool"
+                },
+                "traye:letter_1_data": {
+                    "client_sync": true,
+                    "default": 0,
+                    "type": "int",
+                    "range": [0, 4194303]
+                },
+                "traye:letter_2_data": {
+                    "client_sync": true,
+                    "default": 0,
+                    "type": "int",
+                    "range": [0, 4194303]
+                },
+                "traye:letter_3_data": {
+                    "client_sync": true,
+                    "default": 0,
+                    "type": "int",
+                    "range": [0, 4194303]
+                },
+                "traye:letter_4_data": {
+                    "client_sync": true,
+                    "default": 0,
+                    "type": "int",
+                    "range": [0, 4194303]
+                },
+                "traye:letter_5_data": {
+                    "client_sync": true,
+                    "default": 0,
+                    "type": "int",
+                    "range": [0, 4194303]
+                },
+                "traye:letter_6_data": {
+                    "client_sync": true,
+                    "default": 0,
+                    "type": "int",
+                    "range": [0, 4194303]
+                },
+                "traye:letter_7_data": {
+                    "client_sync": true,
+                    "default": 0,
+                    "type": "int",
+                    "range": [0, 4194303]
+                },
+                "traye:letter_8_data": {
+                    "client_sync": true,
+                    "default": 0,
+                    "type": "int",
+                    "range": [0, 4194303]
+                },
+                "traye:letter_9_data": {
+                    "client_sync": true,
+                    "default": 0,
+                    "type": "int",
+                    "range": [0, 4194303]
+                },
+                "traye:letter_10_data": {
+                    "client_sync": true,
+                    "default": 0,
+                    "type": "int",
+                    "range": [0, 4194303]
+                },
+                "traye:letter_11_data": {
+                    "client_sync": true,
+                    "default": 0,
+                    "type": "int",
+                    "range": [0, 4194303]
+                },
+                "traye:letter_12_data": {
+                    "client_sync": true,
+                    "default": 0,
+                    "type": "int",
+                    "range": [0, 4194303]
+                },
+                "traye:letter_13_data": {
+                    "client_sync": true,
+                    "default": 0,
+                    "type": "int",
+                    "range": [0, 4194303]
+                },
+                "traye:letter_14_data": {
+                    "client_sync": true,
+                    "default": 0,
+                    "type": "int",
+                    "range": [0, 4194303]
+                },
+                "traye:letter_15_data": {
+                    "client_sync": true,
+                    "default": 0,
+                    "type": "int",
+                    "range": [0, 4194303]
+                },
+                "traye:letter_16_data": {
+                    "client_sync": true,
+                    "default": 0,
+                    "type": "int",
+                    "range": [0, 4194303]
+                },
+                "traye:letter_17_data": {
+                    "client_sync": true,
+                    "default": 0,
+                    "type": "int",
+                    "range": [0, 4194303]
+                },
+                "traye:letter_18_data": {
+                    "client_sync": true,
+                    "default": 0,
+                    "type": "int",
+                    "range": [0, 4194303]
+                },
+                "traye:letter_19_data": {
+                    "client_sync": true,
+                    "default": 0,
+                    "type": "int",
+                    "range": [0, 4194303]
+                },
+                "traye:letter_20_data": {
+                    "client_sync": true,
+                    "default": 0,
+                    "type": "int",
+                    "range": [0, 4194303]
+                },
+                "traye:letter_21_data": {
+                    "client_sync": true,
+                    "default": 0,
+                    "type": "int",
+                    "range": [0, 4194303]
+                },
+                "traye:letter_22_data": {
+                    "client_sync": true,
+                    "default": 0,
+                    "type": "int",
+                    "range": [0, 4194303]
+                },
+                "traye:letter_23_data": {
+                    "client_sync": true,
+                    "default": 0,
+                    "type": "int",
+                    "range": [0, 4194303]
+                },
+                "traye:letter_24_data": {
+                    "client_sync": true,
+                    "default": 0,
+                    "type": "int",
+                    "range": [0, 4194303]
+                },
+                "traye:letter_25_data": {
+                    "client_sync": true,
+                    "default": 0,
+                    "type": "int",
+                    "range": [0, 4194303]
+                },
+                "traye:letter_26_data": {
+                    "client_sync": true,
+                    "default": 0,
+                    "type": "int",
+                    "range": [0, 4194303]
+                },
+                "traye:letter_27_data": {
+                    "client_sync": true,
+                    "default": 0,
+                    "type": "int",
+                    "range": [0, 4194303]
+                },
+                "traye:letter_28_data": {
+                    "client_sync": true,
+                    "default": 0,
+                    "type": "int",
+                    "range": [0, 4194303]
+                },
+                "traye:letter_29_data": {
+                    "client_sync": true,
+                    "default": 0,
+                    "type": "int",
+                    "range": [0, 4194303]
+                },
+                "traye:letter_30_data": {
+                    "client_sync": true,
+                    "default": 0,
+                    "type": "int",
+                    "range": [0, 4194303]
+                }
+            }
+        },
+        "components": {
+            "minecraft:damage_sensor": {
+                "triggers": [ {"cause": "all", "deals_damage": "no"} ]
+            },
+            "minecraft:collision_box": {"height": 0, "width": 0}
+        }
+    }
+}

@@ -1,0 +1,39 @@
+{
+    "materials": {
+        "version": "1.0.0",
+        "hologram_background:entity_alphablend": {
+            // BACKGROUND: First in the render_controllers, but last to render
+            "+states": [
+                "EnableStencilTest", "DisableDepthWrite", "DisableDepthTest"
+            ],
+            "-states": ["DisableCulling"],
+            "frontFace": {"stencilFunc": "Equal"},
+            "backFace": {"stencilFunc": "Equal"},
+            "stencilRef": 1,
+            "stencilReadMask": 2,
+            "depthFunc": "Always"
+        },
+        "hologram_char_mask:entity": {
+            // MASK: Renders first
+            "+states": [
+                "StencilWrite",      "DisableColorWrite", "DisableDepthWrite"
+            ],
+            "-states": ["DisableCulling"],
+            "stencilRef": 2,
+            "stencilWriteMask": 2,
+            "depthFunc": "Always"
+        },
+        "hologram_char:entity_alphatest": {
+            // TEXT: Renders after the mask
+            "+defines": ["USE_UV_ANIM"],
+            "-defines": ["FANCY"],
+            "+states": ["EnableStencilTest"],
+            "-states": ["DisableCulling"],
+            "frontFace": {"stencilFunc": "Always", "stencilPassOp": "Replace"},
+            "backFace": {"stencilFunc": "Always", "stencilPassOp": "Replace"},
+            "stencilRef": 2,
+            "stencilWriteMask": 2,
+            "depthFunc": "Always"
+        }
+    }
+}
